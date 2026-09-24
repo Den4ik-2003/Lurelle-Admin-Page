@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault()
     const u = document.getElementById("login").value
     const p = document.getElementById("pass").value
-    if (u === "admin" && p === "12Sm8O43") {
+    if (u === "admin" && p === "marta") {
       localStorage.setItem("auth", "yes")
       window.location.href = "admin.html"
     } else {
